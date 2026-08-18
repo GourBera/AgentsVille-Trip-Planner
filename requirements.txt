@@ -1,0 +1,16 @@
+python-dotenv>=1.0.0
+flask>=2.2.0
+langgraph>=0.3.0
+langsmith>=0.1.100
+langchain-openai>=0.2.0
+
+# Optional / recommended for extended features (install as needed):
+# OpenAI client for LLM-powered nodes:
+# openai>=1.0.0
+
+# Note: pydantic and heavy data packages were removed from the core requirements
+# because the project uses dataclasses for models to avoid pydantic-core build issues
+# on newer Python versions. If you need them, uncomment and install explicitly.
+# pydantic==2.11.7
+# pandas>=2.0.0
+# numexpr>=2.7.0
